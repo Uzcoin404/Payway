@@ -33,18 +33,16 @@ function initArrows() {
         return;
     }
     const leftArrow = document.createElement('a')
-    const iLeft = document.createElement('i');
-    iLeft.classList.add('fa')
-    iLeft.classList.add('fa-arrow-left')
+    const iLeft = document.createElement('img');
+    iLeft.src = 'img/arrow-left.svg';
     leftArrow.classList.add('slider-left')
     leftArrow.appendChild(iLeft)
     leftArrow.addEventListener('click', () => {
         slideLeft();
     })
     const rightArrow = document.createElement('a')
-    const iRight = document.createElement('i');
-    iRight.classList.add('fa')
-    iRight.classList.add('fa-arrow-right')
+    const iRight = document.createElement('img');
+    iRight.src = 'img/arrow-right.svg';
     rightArrow.classList.add('slider-right')
     rightArrow.appendChild(iRight)
     rightArrow.addEventListener('click', () => {
