@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    font-family: "CaptureIt";
+}
+body{
+    /* overflow-x: hidden; */
+}
+.container{
+    max-width: 1440px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+li{
+    list-style: none;
+}
+
+.header{
+    height: 100vh;
+    background: url('../img/header-banner.jpg') no-repeat center / cover;
+}
+.header .container{
+    height: 100%;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+}
+.nav__list{
+    display: flex;
+    margin-left: 20px;
+}
+.nav__link{
+    margin-right: 20px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+}
+.nav__link a{
+    color: #FFFFFF;
+}
+.nav__social{
+    display: flex;
+}
+.social__media{
+    margin-left: 12px;
+}
+
+.hero {
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+.hero__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hero__logo{
+    margin-top: 40px;
+}
+.hero__title{
+    font-size: 120px;
+    line-height: 138px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 29px #3E3A71;
+}
+.hero__btn{
+    box-shadow: rgba(0, 0, 0, 0.22) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.1) 0px 4px 6px, rgba(0, 0, 0, 0.15) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 80px;
+    margin: 30px 0;
+    display: inline-block;
+}
+.hero__btn img{
+    pointer-events: none;
+    user-select: none;
+}
+.hero__payway{
+    padding-bottom: 30px;
+}
+
+.matches{
+    position: relative;
+    overflow-x: hidden;
+    padding-top: 15px;
+    height: 100%;
+}
+.matches__cards{
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.matches__card{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    background: url('../img/card-bg.png');
+    background-size: 100%;
+    color: #3E3A71;
+    text-align: center;
+    padding: 36px 35px 25px;
+    z-index: 10;
+}
+.card__score{
+    font-size: 100px;
+    line-height: 100%;
+    padding: 0 20px 8px;   
+}
+.card__place{
+    font-size: 18px;
+    line-height: 100%;
+    padding-bottom: 30px;
+}
+.card__date{
+    font-family: 'HelveticaNeueCyr';
+    font-weight: 550;
+    font-size: 18px;
+    line-height: 100%;
+    color: #000000;
+}
+
+.matches__bg{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+}
+.cards__snow{
+    position: absolute;
+    pointer-events: none;
+    bottom: -150px;
+    width: 100%;
+    pointer-events: none;
+}
+.matches__snow1{
+    position: absolute;
+    pointer-events: none;
+    top: -200px;
+    right: -200px;
+}
+.matches__snow2{
+    position: absolute;
+    pointer-events: none;
+    width: 360px;
+    height: 360px;
+    top: -100px;
+    left: -50px;
+}
+
+.matches__info{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+.matches__result__box{
+    text-align: center;
+    z-index: 10;
+}
+.result__box__title{
+    font-size: 100px;
+    line-height: 100%;
+    color: #3E3A71;
+    margin-top: 10px;
+}
+.result__box__text{
+    font-family: 'HelveticaNeueCyr';
+    font-weight: 550;
+    font-size: 18px;
+    line-height: 100%;
+    color: #000000;
+}
+
+.joinus{
+    position: relative;
+    z-index: 1;
+}
+.joinus_title{
+    font-size: 60px;
+    line-height: 69px;
+    color: #3E3A71;
+    text-shadow: 0px 4px 16px #FFFFFF;
+    text-align: center;
+    padding: 100px 0 30px;
+}
+.joinus__text{
+    font-family: 'HelveticaNeueCyr';
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    width: 700px;
+    margin: 0 auto;
+}
+.joinus__img1{
+    position: absolute;
+    pointer-events: none;
+    top: 0;
+    left: -200px;
+}
+
+.training{
+    position: relative;
+    margin-top: 100px;
+    background: url('../img/крига\ в\ польоті\ 1.png') no-repeat center / cover;
+}
+.training__blog{
+    display: flex;
+    align-items: flex-end;
+}
+.training__title{
+    font-size: 60px;
+    line-height: 100%;
+    color: #3E3A71;
+    text-shadow: 0px 0px 2px #3E3A71;
+    padding-bottom: 50px;
+    width: 770px;
+}
+.training__text, .training__yt__text{
+    font-family: 'HelveticaNeueCyr';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 171%;
+    color: #3E3A71;    
+}
+.training__yt__text{
+    font-size: 18px;
+    font-weight: 400;
+}
+.training__btn{
+    display: inline-block;
+    box-shadow: none;
+
+}
